@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="key1, key2">
+    <meta name="description" content="Content"> 
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>  
+</head>
+<body>
+    <section class="price-calc">
+        <div class="form">
+            <div class="net-pentest">
+                <label>Network pentest</label>
+                <a class="toggle-wrap toggle-active" href="#">
+                    <i class="slider"></i>
+                </a>
+            </div>
+            <div class="tog-form">
+                <div class="input-line">
+                    <label for="hosts">Number of hosts</label>
+                    <input type="number" value="5" name="hosts">
+                </div>
+                <div class="input-line">
+                    <label for="applications">Number of web applications</label>
+                    <input type="number" value="2" name="applications">
+                </div>
+                <div class="input-line">
+                    <label for="services">Number of web services</label>
+                    <input type="number" value="0" name="services">
+                </div>
+                <div class="performed">
+                    <label>Works to be performed on-site</label>
+                    <a class="toggle-wrap-pref" href="#">
+                        <i class="slider"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <div class="soc-pentest">
+                <label>Social Engineering Pentest</label>
+                <a class="toggle-wrap toggle-active" href="#">
+                    <i class="slider"></i>
+                </a>
+            </div>
+            <div>
+                <div class="input-line">
+                    <label for="sample">Number of employees in the sample	</label>
+                    <input type="number" value="20" name="sample">
+                </div>
+                <div class="performed">
+                    <label>Works to be performed on-site</label>
+                    <a class="toggle-wrap-pref" href="#">
+                        <i class="slider"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="form tog-form-inactive">
+            <div class="report">
+                <label>Report translation (Ukr., Rus., Eng.)</label>
+                <a class="toggle-wrap" href="#">
+                    <i class="slider"></i>
+                </a>
+            </div>
+        </div>
+        <div class="result">
+            <div class="input-line">
+                <label for="duration">Estimated duration</label>
+                <input type="number" value="" name="duration" disabled >
+            </div>
+            <div class="input-line">
+                <label for="price">Price (USD)</label>
+                <input type="number" value="" name="price" disabled>
+            </div>
+        </div>
+    </section>
+    <script src="js/calc.js" ></script>
+</body>
+</html>
